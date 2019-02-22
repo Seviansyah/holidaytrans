@@ -2,6 +2,18 @@
 	margin: 0;
 	padding: 0;
 }
+
+/*-----media----*/
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
+
 /*-------------------------background top-----------------*/
 .atas {
 	display: table;
@@ -364,7 +376,7 @@ a{
 
 /*-------------------------------dokmentasi------------------------------------*/
 #dokumentasi {
-	padding: 70px 0 ;
+	padding: 70px 0px ;
 	background: #efefef;
 }
 .ptext{
@@ -379,4 +391,43 @@ a{
 	background-color:#1a24b1;
 	color: #fff;
 	padding: 7px; 
+	margin-bottom: 20px;
+}
+
+
+/*-------------------------------support by------------------------------------*/
+#supportby {
+	padding: 70px 0 ;
+}
+.ptext{
+	text-align:left;
+	color: #000;
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.ptext .border {
+	background-color:#1a24b1;
+	color: #fff;
+	padding: 7px; 
+}
+
+/*---------------Footer------------*/
+#foot2{
+	background: yellow;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+#footer {
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+
+.fa-heart-o {
+	margin: 3px;
+	color: red;
 }
